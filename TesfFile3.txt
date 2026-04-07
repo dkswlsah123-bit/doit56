@@ -1,0 +1,42 @@
+TestFile3 확인
+
+
+SIST113@classD108 MINGW64 /c/StudyGIT
+$ git clone https://github.com/dkswlsah123-bit/doit56.git StudyJava_home
+Cloning into 'StudyJava_home'...
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (9/9), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 9 (delta 1), reused 5 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (9/9), done.
+Resolving deltas: 100% (1/1), done.
+
+SIST113@classD108 MINGW64 /c/StudyGIT
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SIST113@classD108 MINGW64 /c/StudyGIT
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+SIST113@classD108 MINGW64 /c/StudyGIT
+$ cd StudyJava_home
+
+SIST113@classD108 MINGW64 /c/StudyGIT/StudyJava_home (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+SIST113@classD108 MINGW64 /c/StudyGIT/StudyJava_home (main)
+$ ls
+README.md  TesfFile3.txt  TestFile.txt  TestFile2.txt
+
+SIST113@classD108 MINGW64 /c/StudyGIT/StudyJava_home (main)
+$ git config user.name
+anjinmo
+
+SIST113@classD108 MINGW64 /c/StudyGIT/StudyJava_home (main)
+$ git config user.email
+dkswlsah123@gmail.com
